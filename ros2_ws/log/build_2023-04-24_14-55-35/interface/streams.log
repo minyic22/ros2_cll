@@ -1,0 +1,180 @@
+[0.309s] Invoking command in '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing:/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/interface -- -j16 -l16
+[1.552s] [  2%] Built target interface__cpp
+[1.690s] [ 12%] Built target interface__rosidl_generator_c
+[2.133s] [ 25%] Built target interface__rosidl_typesupport_cpp
+[2.173s] [ 34%] Built target interface__rosidl_typesupport_introspection_cpp
+[2.228s] [ 51%] Built target interface__rosidl_typesupport_fastrtps_cpp
+[2.244s] [ 55%] Built target interface__rosidl_typesupport_c
+[2.279s] [ 65%] Built target interface__rosidl_typesupport_fastrtps_c
+[2.332s] [ 76%] Built target interface__rosidl_typesupport_introspection_c
+[2.717s] [ 76%] Built target ament_cmake_python_copy_interface
+[2.790s] [ 76%] Built target interface
+[3.328s] [ 78%] Built target interface__py
+[4.007s] [ 87%] Built target interface__rosidl_generator_py
+[4.259s] [ 91%] Built target interface__rosidl_typesupport_introspection_c__pyext
+[4.274s] [ 95%] Built target interface__rosidl_typesupport_fastrtps_c__pyext
+[4.383s] running egg_info
+[4.422s] writing interface.egg-info/PKG-INFO
+[4.429s] writing dependency_links to interface.egg-info/dependency_links.txt
+[4.441s] writing top-level names to interface.egg-info/top_level.txt
+[4.530s] [100%] Built target interface__rosidl_typesupport_c__pyext
+[4.598s] reading manifest file 'interface.egg-info/SOURCES.txt'
+[4.663s] writing manifest file 'interface.egg-info/SOURCES.txt'
+[4.955s] [100%] Built target ament_cmake_python_build_interface_egg
+[5.405s] Invoked command in '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing:/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/interface -- -j16 -l16
+[10.381s] Invoking command in '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing:/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/interface
+[10.530s] -- Install configuration: ""
+[10.576s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/ament_index/resource_index/rosidl_interfaces/interface
+[10.604s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface
+[10.640s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg
+[10.674s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail
+[10.736s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/shape__functions.c
+[10.781s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/shape__functions.h
+[10.828s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/shape__struct.h
+[10.876s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/shape__type_support.h
+[10.924s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/strokes__functions.c
+[10.971s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/strokes__functions.h
+[11.022s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/strokes__struct.h
+[11.068s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/strokes__type_support.h
+[11.117s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/stroke__functions.c
+[11.167s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/stroke__functions.h
+[11.195s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/stroke__struct.h
+[11.247s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/stroke__type_support.h
+[11.296s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/rosidl_generator_c__visibility_control.h
+[11.340s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/shape.h
+[11.387s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/stroke.h
+[11.430s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/strokes.h
+[11.465s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/environment/library_path.sh
+[11.508s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/environment/library_path.dsv
+[11.555s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/lib/libinterface__rosidl_generator_c.so
+[11.613s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface
+[11.647s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg
+[11.684s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail
+[11.740s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/shape__rosidl_typesupport_fastrtps_c.h
+[11.782s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/strokes__rosidl_typesupport_fastrtps_c.h
+[11.823s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/stroke__rosidl_typesupport_fastrtps_c.h
+[11.862s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.913s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_c.so
+[11.962s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface
+[11.988s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg
+[12.029s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail
+[12.088s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/shape__rosidl_typesupport_introspection_c.h
+[12.133s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/shape__type_support.c
+[12.187s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/strokes__rosidl_typesupport_introspection_c.h
+[12.248s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/strokes__type_support.c
+[12.310s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/stroke__rosidl_typesupport_introspection_c.h
+[12.370s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/stroke__type_support.c
+[12.424s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.480s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_introspection_c.so
+[12.562s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_c.so
+[12.615s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface
+[12.653s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg
+[12.697s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail
+[12.758s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/shape__builder.hpp
+[12.802s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/shape__struct.hpp
+[12.848s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/shape__traits.hpp
+[12.891s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/strokes__builder.hpp
+[12.938s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/strokes__struct.hpp
+[12.979s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/strokes__traits.hpp
+[13.036s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/stroke__builder.hpp
+[13.097s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/stroke__struct.hpp
+[13.157s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/stroke__traits.hpp
+[13.210s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/shape.hpp
+[13.261s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/stroke.hpp
+[13.305s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/strokes.hpp
+[13.331s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface
+[13.370s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg
+[13.418s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail
+[13.470s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/dds_fastrtps
+[13.533s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/shape__rosidl_typesupport_fastrtps_cpp.hpp
+[13.576s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/strokes__rosidl_typesupport_fastrtps_cpp.hpp
+[13.617s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/stroke__rosidl_typesupport_fastrtps_cpp.hpp
+[13.655s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[13.703s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_cpp.so
+[13.752s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface
+[13.787s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg
+[13.829s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail
+[13.894s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/shape__rosidl_typesupport_introspection_cpp.hpp
+[13.939s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/shape__type_support.cpp
+[13.981s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/strokes__rosidl_typesupport_introspection_cpp.hpp
+[14.023s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/strokes__type_support.cpp
+[14.065s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/stroke__rosidl_typesupport_introspection_cpp.hpp
+[14.113s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/stroke__type_support.cpp
+[14.163s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_introspection_cpp.so
+[14.238s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_cpp.so
+[14.299s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/environment/pythonpath.sh
+[14.342s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/environment/pythonpath.dsv
+[14.377s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info
+[14.446s] -- Installing: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[14.604s] -- Installing: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/PKG-INFO
+[14.756s] -- Installing: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[14.933s] -- Installing: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/top_level.txt
+[15.096s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface
+[15.156s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[15.192s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[15.226s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[15.262s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/libinterface__rosidl_generator_py.so
+[15.292s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg
+[15.345s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg/_shape.py
+[15.388s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg/_shape_s.c
+[15.431s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg/_stroke.py
+[15.474s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg/_strokes.py
+[15.516s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg/_strokes_s.c
+[15.572s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg/_stroke_s.c
+[15.627s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg/__init__.py
+[15.677s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/_interface_s.ep.rosidl_typesupport_c.c
+[15.720s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[15.737s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/_interface_s.ep.rosidl_typesupport_introspection_c.c
+[15.772s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/__init__.py
+[16.664s] Listing '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface'...
+[16.665s] Listing '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg'...
+[16.732s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[16.889s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[17.040s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[17.165s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/lib/libinterface__rosidl_generator_py.so
+[17.246s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/msg/Shape.idl
+[17.294s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/msg/Stroke.idl
+[17.347s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/msg/Strokes.idl
+[17.393s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/msg/Shape.msg
+[17.440s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/msg/Stroke.msg
+[17.487s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/msg/Strokes.msg
+[17.546s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/ament_index/resource_index/package_run_dependencies/interface
+[17.594s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/ament_index/resource_index/parent_prefix_path/interface
+[17.624s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/environment/ament_prefix_path.sh
+[17.660s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/environment/ament_prefix_path.dsv
+[17.694s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/environment/path.sh
+[17.731s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/environment/path.dsv
+[17.765s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/local_setup.bash
+[17.798s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/local_setup.sh
+[17.826s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/local_setup.zsh
+[17.857s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/local_setup.dsv
+[17.888s] -- Installing: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/package.dsv
+[18.008s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/ament_index/resource_index/packages/interface
+[18.087s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_generator_cExport.cmake
+[18.139s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_generator_cExport-noconfig.cmake
+[18.215s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[18.284s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[18.388s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cExport.cmake
+[18.447s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[18.525s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_cExport.cmake
+[18.582s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_cExport-noconfig.cmake
+[18.629s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_generator_cppExport.cmake
+[18.707s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[18.759s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[18.825s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cppExport.cmake
+[18.878s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[18.955s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_cppExport.cmake
+[19.008s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_cppExport-noconfig.cmake
+[19.110s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_generator_pyExport.cmake
+[19.163s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_generator_pyExport-noconfig.cmake
+[19.201s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/rosidl_cmake-extras.cmake
+[19.241s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.277s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/ament_cmake_export_libraries-extras.cmake
+[19.314s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/ament_cmake_export_targets-extras.cmake
+[19.351s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[19.387s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.425s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[19.463s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/interfaceConfig.cmake
+[19.492s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/interfaceConfig-version.cmake
+[19.528s] -- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/package.xml
+[19.555s] Invoked command in '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing:/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/interface

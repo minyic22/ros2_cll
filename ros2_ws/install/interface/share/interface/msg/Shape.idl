@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from interface/msg/Shape.msg
+// generated code does not contain a copyright notice
+
+
+module interface {
+  module msg {
+    struct Shape {
+      @verbatim (language="comment", text=
+        "the trajectory of the shape")
+      sequence<float> path;
+
+      @verbatim (language="comment", text=
+        "the ID of the instance of the shape")
+      uint32 shape_id;
+
+      @verbatim (language="comment", text=
+        "the type of the shape")
+      string shape_type;
+
+      @verbatim (language="comment", text=
+        "the code of the type of the shape")
+      uint32 shape_type_code;
+
+      @verbatim (language="comment", text=
+        "which parameters are varying in the shape model")
+      sequence<uint8> params_to_vary;
+
+      @verbatim (language="comment", text=
+        "the parameter values used to make this shape")
+      sequence<float> param_values;
+    };
+  };
+};

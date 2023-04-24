@@ -1,0 +1,43 @@
+[1.561s] Invoking command in '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/src/nao_writing': PYTHONPATH=/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/prefix_override:/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nao_writing build --build-base /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build install --record /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/install.log --single-version-externally-managed
+[2.301s] running egg_info
+[2.309s] creating ../../build/nao_writing/nao_writing.egg-info
+[2.331s] writing ../../build/nao_writing/nao_writing.egg-info/PKG-INFO
+[2.349s] writing dependency_links to ../../build/nao_writing/nao_writing.egg-info/dependency_links.txt
+[2.355s] writing entry points to ../../build/nao_writing/nao_writing.egg-info/entry_points.txt
+[2.362s] writing requirements to ../../build/nao_writing/nao_writing.egg-info/requires.txt
+[2.365s] writing top-level names to ../../build/nao_writing/nao_writing.egg-info/top_level.txt
+[2.374s] writing manifest file '../../build/nao_writing/nao_writing.egg-info/SOURCES.txt'
+[2.434s] reading manifest file '../../build/nao_writing/nao_writing.egg-info/SOURCES.txt'
+[2.563s] writing manifest file '../../build/nao_writing/nao_writing.egg-info/SOURCES.txt'
+[2.573s] running build
+[2.575s] running build_py
+[2.586s] creating /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build
+[2.591s] creating /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build/lib
+[2.596s] creating /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build/lib/nao_writing
+[2.620s] copying nao_writing/publisher_member_function.py -> /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build/lib/nao_writing
+[2.668s] copying nao_writing/subscriber_member_function.py -> /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build/lib/nao_writing
+[2.717s] copying nao_writing/__init__.py -> /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build/lib/nao_writing
+[2.746s] running install
+[2.747s] /usr/local/lib/python3.10/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.749s]   warnings.warn(
+[2.758s] running install_lib
+[2.802s] creating /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing
+[2.819s] copying /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build/lib/nao_writing/publisher_member_function.py -> /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing
+[2.850s] copying /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build/lib/nao_writing/subscriber_member_function.py -> /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing
+[2.928s] copying /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build/lib/nao_writing/__init__.py -> /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing
+[2.962s] byte-compiling /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[3.000s] byte-compiling /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[3.036s] byte-compiling /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing/__init__.py to __init__.cpython-310.pyc
+[3.062s] running install_data
+[3.082s] creating /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/share/ament_index
+[3.084s] creating /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/share/ament_index/resource_index
+[3.088s] creating /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/share/ament_index/resource_index/packages
+[3.098s] copying resource/nao_writing -> /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/share/ament_index/resource_index/packages
+[3.116s] copying package.xml -> /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/share/nao_writing
+[3.127s] running install_egg_info
+[3.171s] Copying ../../build/nao_writing/nao_writing.egg-info to /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing-0.0.0-py3.10.egg-info
+[3.669s] running install_scripts
+[4.018s] Installing listener script to /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/nao_writing
+[4.030s] Installing talker script to /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/nao_writing
+[4.043s] writing list of installed files to '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/install.log'
+[4.078s] Invoked command in '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/src/nao_writing' returned '0': PYTHONPATH=/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/prefix_override:/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nao_writing build --build-base /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build install --record /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/install.log --single-version-externally-managed

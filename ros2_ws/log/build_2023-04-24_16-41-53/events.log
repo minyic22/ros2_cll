@@ -1,0 +1,415 @@
+[0.000000] (-) TimerEvent: {}
+[0.000507] (interface) JobQueued: {'identifier': 'interface', 'dependencies': OrderedDict()}
+[0.000868] (nao_writing) JobQueued: {'identifier': 'nao_writing', 'dependencies': OrderedDict([('interface', '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface')])}
+[0.001261] (interface) JobStarted: {'identifier': 'interface'}
+[0.097083] (-) TimerEvent: {}
+[0.101848] (interface) JobProgress: {'identifier': 'interface', 'progress': 'cmake'}
+[0.132131] (interface) JobProgress: {'identifier': 'interface', 'progress': 'build'}
+[0.139921] (interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/interface', '--', '-j16', '-l16'], 'cwd': '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'minyic'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/minyic'), ('OLDPWD', '/mnt/c/Users/minyi/Desktop/ros2_cll'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'minyic'), ('NAME', 'minyic'), ('WSL_INTEROP', '/run/WSL/273_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/minyic/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files (x86)/NetSarang/Xshell 7/:/mnt/c/Program Files (x86)/NetSarang/Xftp 7/:/Docker/host/bin:/mnt/c/Python27/Lib/site-packages/py2exe:/mnt/c/Python27:/mnt/c/Users/minyi/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/minyi/AppData/Roaming/npm:/mnt/c/Python27/Lib:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing:/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/interface'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages:/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface:/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.197245] (-) TimerEvent: {}
+[0.298198] (-) TimerEvent: {}
+[0.399103] (-) TimerEvent: {}
+[0.499759] (-) TimerEvent: {}
+[0.600476] (-) TimerEvent: {}
+[0.701209] (-) TimerEvent: {}
+[0.787232] (interface) StdoutLine: {'line': b'[  2%] Built target interface__cpp\n'}
+[0.801360] (-) TimerEvent: {}
+[0.902118] (-) TimerEvent: {}
+[1.003011] (-) TimerEvent: {}
+[1.060254] (interface) StdoutLine: {'line': b'[ 12%] Built target interface__rosidl_generator_c\n'}
+[1.103175] (-) TimerEvent: {}
+[1.202674] (interface) StdoutLine: {'line': b'[ 23%] Built target interface__rosidl_typesupport_cpp\n'}
+[1.206083] (-) TimerEvent: {}
+[1.273951] (interface) StdoutLine: {'line': b'[ 34%] Built target interface__rosidl_typesupport_introspection_cpp\n'}
+[1.306272] (-) TimerEvent: {}
+[1.322177] (interface) StdoutLine: {'line': b'[ 44%] Built target interface__rosidl_typesupport_fastrtps_cpp\n'}
+[1.406412] (-) TimerEvent: {}
+[1.490811] (interface) StdoutLine: {'line': b'[ 55%] Built target interface__rosidl_typesupport_c\n'}
+[1.506556] (-) TimerEvent: {}
+[1.550370] (interface) StdoutLine: {'line': b'[ 74%] Built target interface__rosidl_typesupport_fastrtps_c\n'}
+[1.558477] (interface) StdoutLine: {'line': b'[ 76%] Built target interface__rosidl_typesupport_introspection_c\n'}
+[1.606741] (-) TimerEvent: {}
+[1.707668] (-) TimerEvent: {}
+[1.722283] (interface) StdoutLine: {'line': b'[ 76%] Built target interface\n'}
+[1.807800] (-) TimerEvent: {}
+[1.899244] (interface) StdoutLine: {'line': b'[ 76%] Built target ament_cmake_python_copy_interface\n'}
+[1.907933] (-) TimerEvent: {}
+[1.974563] (interface) StdoutLine: {'line': b'[ 78%] Built target interface__py\n'}
+[2.008081] (-) TimerEvent: {}
+[2.108985] (-) TimerEvent: {}
+[2.209851] (-) TimerEvent: {}
+[2.309846] (interface) StdoutLine: {'line': b'[ 87%] Built target interface__rosidl_generator_py\n'}
+[2.312509] (-) TimerEvent: {}
+[2.413207] (-) TimerEvent: {}
+[2.514024] (-) TimerEvent: {}
+[2.557469] (interface) StdoutLine: {'line': b'[ 95%] Built target interface__rosidl_typesupport_c__pyext\n'}
+[2.560666] (interface) StdoutLine: {'line': b'[ 95%] Built target interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.610643] (interface) StdoutLine: {'line': b'[100%] Built target interface__rosidl_typesupport_introspection_c__pyext\n'}
+[2.614130] (-) TimerEvent: {}
+[2.714725] (-) TimerEvent: {}
+[2.815396] (-) TimerEvent: {}
+[2.850000] (interface) StdoutLine: {'line': b'running egg_info\n'}
+[2.877494] (interface) StdoutLine: {'line': b'writing interface.egg-info/PKG-INFO\n'}
+[2.884923] (interface) StdoutLine: {'line': b'writing dependency_links to interface.egg-info/dependency_links.txt\n'}
+[2.897172] (interface) StdoutLine: {'line': b'writing top-level names to interface.egg-info/top_level.txt\n'}
+[2.915498] (-) TimerEvent: {}
+[3.016250] (-) TimerEvent: {}
+[3.018298] (interface) StdoutLine: {'line': b"reading manifest file 'interface.egg-info/SOURCES.txt'\n"}
+[3.082217] (interface) StdoutLine: {'line': b"writing manifest file 'interface.egg-info/SOURCES.txt'\n"}
+[3.116378] (-) TimerEvent: {}
+[3.141249] (interface) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_interface_egg\n'}
+[3.216608] (-) TimerEvent: {}
+[3.317418] (-) TimerEvent: {}
+[3.418168] (-) TimerEvent: {}
+[3.442609] (interface) CommandEnded: {'returncode': 0}
+[3.518292] (-) TimerEvent: {}
+[3.619090] (-) TimerEvent: {}
+[3.719794] (-) TimerEvent: {}
+[3.820502] (-) TimerEvent: {}
+[3.921134] (-) TimerEvent: {}
+[4.021963] (-) TimerEvent: {}
+[4.122636] (-) TimerEvent: {}
+[4.223330] (-) TimerEvent: {}
+[4.245646] (interface) JobProgress: {'identifier': 'interface', 'progress': 'install'}
+[4.277311] (interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/interface'], 'cwd': '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'minyic'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/minyic'), ('OLDPWD', '/mnt/c/Users/minyi/Desktop/ros2_cll'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'minyic'), ('NAME', 'minyic'), ('WSL_INTEROP', '/run/WSL/273_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/minyic/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files (x86)/NetSarang/Xshell 7/:/mnt/c/Program Files (x86)/NetSarang/Xftp 7/:/Docker/host/bin:/mnt/c/Python27/Lib/site-packages/py2exe:/mnt/c/Python27:/mnt/c/Users/minyi/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/minyi/AppData/Roaming/npm:/mnt/c/Python27/Lib:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing:/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/interface'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages:/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface:/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[4.306777] (interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.323450] (-) TimerEvent: {}
+[4.346924] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/ament_index/resource_index/rosidl_interfaces/interface\n'}
+[4.367186] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface\n'}
+[4.395105] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg\n'}
+[4.423573] (-) TimerEvent: {}
+[4.432459] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail\n'}
+[4.489415] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/shape__functions.c\n'}
+[4.523736] (-) TimerEvent: {}
+[4.540006] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/shape__functions.h\n'}
+[4.590490] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/shape__struct.h\n'}
+[4.623861] (-) TimerEvent: {}
+[4.632872] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/shape__type_support.h\n'}
+[4.671979] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/strokes__functions.c\n'}
+[4.710826] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/strokes__functions.h\n'}
+[4.724027] (-) TimerEvent: {}
+[4.747487] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/strokes__struct.h\n'}
+[4.787247] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/strokes__type_support.h\n'}
+[4.824171] (-) TimerEvent: {}
+[4.828938] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/stroke__functions.c\n'}
+[4.869122] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/stroke__functions.h\n'}
+[4.908885] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/stroke__struct.h\n'}
+[4.924323] (-) TimerEvent: {}
+[4.947863] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/stroke__type_support.h\n'}
+[4.982551] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.020791] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/shape.h\n'}
+[5.024417] (-) TimerEvent: {}
+[5.056901] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/stroke.h\n'}
+[5.093876] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/strokes.h\n'}
+[5.113139] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/environment/library_path.sh\n'}
+[5.124560] (-) TimerEvent: {}
+[5.141733] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/environment/library_path.dsv\n'}
+[5.170760] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/lib/libinterface__rosidl_generator_c.so\n'}
+[5.197345] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface\n'}
+[5.224679] (-) TimerEvent: {}
+[5.227531] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg\n'}
+[5.265091] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail\n'}
+[5.319032] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/shape__rosidl_typesupport_fastrtps_c.h\n'}
+[5.324802] (-) TimerEvent: {}
+[5.364103] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/strokes__rosidl_typesupport_fastrtps_c.h\n'}
+[5.417307] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/stroke__rosidl_typesupport_fastrtps_c.h\n'}
+[5.424939] (-) TimerEvent: {}
+[5.463981] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.495319] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_c.so\n'}
+[5.523344] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface\n'}
+[5.525188] (-) TimerEvent: {}
+[5.559139] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg\n'}
+[5.606785] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail\n'}
+[5.625363] (-) TimerEvent: {}
+[5.674355] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/shape__rosidl_typesupport_introspection_c.h\n'}
+[5.725494] (-) TimerEvent: {}
+[5.727175] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/shape__type_support.c\n'}
+[5.767377] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/strokes__rosidl_typesupport_introspection_c.h\n'}
+[5.807111] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/strokes__type_support.c\n'}
+[5.825615] (-) TimerEvent: {}
+[5.848455] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/stroke__rosidl_typesupport_introspection_c.h\n'}
+[5.890557] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/stroke__type_support.c\n'}
+[5.925358] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.927303] (-) TimerEvent: {}
+[5.949578] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_introspection_c.so\n'}
+[5.977171] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_c.so\n'}
+[6.000522] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface\n'}
+[6.027442] (-) TimerEvent: {}
+[6.029572] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg\n'}
+[6.066281] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail\n'}
+[6.122268] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/shape__builder.hpp\n'}
+[6.127576] (-) TimerEvent: {}
+[6.163091] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/shape__struct.hpp\n'}
+[6.207119] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/shape__traits.hpp\n'}
+[6.227722] (-) TimerEvent: {}
+[6.249801] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/strokes__builder.hpp\n'}
+[6.292807] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/strokes__struct.hpp\n'}
+[6.327867] (-) TimerEvent: {}
+[6.334000] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/strokes__traits.hpp\n'}
+[6.374975] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/stroke__builder.hpp\n'}
+[6.416372] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/stroke__struct.hpp\n'}
+[6.427989] (-) TimerEvent: {}
+[6.456930] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/stroke__traits.hpp\n'}
+[6.492220] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/shape.hpp\n'}
+[6.527497] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/stroke.hpp\n'}
+[6.529441] (-) TimerEvent: {}
+[6.559997] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/strokes.hpp\n'}
+[6.580117] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface\n'}
+[6.612220] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg\n'}
+[6.629586] (-) TimerEvent: {}
+[6.659135] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail\n'}
+[6.713173] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/dds_fastrtps\n'}
+[6.729737] (-) TimerEvent: {}
+[6.780087] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/shape__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.829884] (-) TimerEvent: {}
+[6.832322] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/strokes__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.884979] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/stroke__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.930023] (-) TimerEvent: {}
+[6.931935] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.970717] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.001960] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface\n'}
+[7.030149] (-) TimerEvent: {}
+[7.031354] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg\n'}
+[7.079191] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail\n'}
+[7.130290] (-) TimerEvent: {}
+[7.144948] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/shape__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.195872] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/shape__type_support.cpp\n'}
+[7.230440] (-) TimerEvent: {}
+[7.236683] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/strokes__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.276935] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/strokes__type_support.cpp\n'}
+[7.319168] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/stroke__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.330544] (-) TimerEvent: {}
+[7.359727] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/include/interface/interface/msg/detail/stroke__type_support.cpp\n'}
+[7.392961] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_introspection_cpp.so\n'}
+[7.430731] (-) TimerEvent: {}
+[7.434246] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_cpp.so\n'}
+[7.474762] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/environment/pythonpath.sh\n'}
+[7.503631] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/environment/pythonpath.dsv\n'}
+[7.519870] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info\n'}
+[7.530864] (-) TimerEvent: {}
+[7.549856] (interface) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[7.631008] (-) TimerEvent: {}
+[7.639187] (interface) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[7.727909] (interface) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[7.731177] (-) TimerEvent: {}
+[7.809038] (interface) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[7.831284] (-) TimerEvent: {}
+[7.871944] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface\n'}
+[7.892382] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.910174] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.931413] (-) TimerEvent: {}
+[7.932821] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.954965] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/libinterface__rosidl_generator_py.so\n'}
+[7.972220] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg\n'}
+[8.006539] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg/_shape.py\n'}
+[8.031549] (-) TimerEvent: {}
+[8.034802] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg/_shape_s.c\n'}
+[8.063082] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg/_stroke.py\n'}
+[8.092482] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg/_strokes.py\n'}
+[8.122752] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg/_strokes_s.c\n'}
+[8.131662] (-) TimerEvent: {}
+[8.155002] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg/_stroke_s.c\n'}
+[8.187039] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg/__init__.py\n'}
+[8.207013] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/_interface_s.ep.rosidl_typesupport_c.c\n'}
+[8.224317] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[8.231753] (-) TimerEvent: {}
+[8.242420] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[8.260565] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/__init__.py\n'}
+[8.331913] (-) TimerEvent: {}
+[8.432726] (-) TimerEvent: {}
+[8.533436] (-) TimerEvent: {}
+[8.632186] (interface) StdoutLine: {'line': b"Listing '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface'...\n"}
+[8.634121] (-) TimerEvent: {}
+[8.634587] (interface) StdoutLine: {'line': b"Listing '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg'...\n"}
+[8.675284] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.734274] (-) TimerEvent: {}
+[8.739077] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.796420] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.834426] (-) TimerEvent: {}
+[8.840664] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/lib/libinterface__rosidl_generator_py.so\n'}
+[8.893029] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/msg/Shape.idl\n'}
+[8.934558] (-) TimerEvent: {}
+[8.935519] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/msg/Stroke.idl\n'}
+[8.977119] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/msg/Strokes.idl\n'}
+[9.014647] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/msg/Shape.msg\n'}
+[9.034756] (-) TimerEvent: {}
+[9.052651] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/msg/Stroke.msg\n'}
+[9.088652] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/msg/Strokes.msg\n'}
+[9.130346] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/ament_index/resource_index/package_run_dependencies/interface\n'}
+[9.134806] (-) TimerEvent: {}
+[9.180987] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/ament_index/resource_index/parent_prefix_path/interface\n'}
+[9.200115] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/environment/ament_prefix_path.sh\n'}
+[9.226980] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/environment/ament_prefix_path.dsv\n'}
+[9.234981] (-) TimerEvent: {}
+[9.245376] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/environment/path.sh\n'}
+[9.272754] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/environment/path.dsv\n'}
+[9.298554] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/local_setup.bash\n'}
+[9.321445] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/local_setup.sh\n'}
+[9.335157] (-) TimerEvent: {}
+[9.344124] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/local_setup.zsh\n'}
+[9.366900] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/local_setup.dsv\n'}
+[9.389179] (interface) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/package.dsv\n'}
+[9.435312] (-) TimerEvent: {}
+[9.498784] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/ament_index/resource_index/packages/interface\n'}
+[9.535429] (-) TimerEvent: {}
+[9.587334] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_generator_cExport.cmake\n'}
+[9.635573] (-) TimerEvent: {}
+[9.646250] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.721306] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[9.735684] (-) TimerEvent: {}
+[9.760369] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[9.825311] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.835826] (-) TimerEvent: {}
+[9.871484] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[9.935929] (-) TimerEvent: {}
+[9.952489] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_cExport.cmake\n'}
+[9.997276] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[10.036063] (-) TimerEvent: {}
+[10.064152] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_generator_cppExport.cmake\n'}
+[10.126829] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[10.136267] (-) TimerEvent: {}
+[10.170599] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[10.236215] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[10.237876] (-) TimerEvent: {}
+[10.292928] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[10.338045] (-) TimerEvent: {}
+[10.375070] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_cppExport.cmake\n'}
+[10.418369] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[10.438187] (-) TimerEvent: {}
+[10.483565] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_generator_pyExport.cmake\n'}
+[10.528627] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[10.538296] (-) TimerEvent: {}
+[10.554491] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/rosidl_cmake-extras.cmake\n'}
+[10.582486] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.608340] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.633327] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.638426] (-) TimerEvent: {}
+[10.658897] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[10.684974] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.710484] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[10.738553] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/interfaceConfig.cmake\n'}
+[10.740236] (-) TimerEvent: {}
+[10.761415] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/cmake/interfaceConfig-version.cmake\n'}
+[10.785629] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/share/interface/package.xml\n'}
+[10.807105] (interface) CommandEnded: {'returncode': 0}
+[10.840341] (-) TimerEvent: {}
+[10.941023] (-) TimerEvent: {}
+[11.041823] (-) TimerEvent: {}
+[11.142489] (-) TimerEvent: {}
+[11.243288] (-) TimerEvent: {}
+[11.344090] (-) TimerEvent: {}
+[11.444815] (-) TimerEvent: {}
+[11.545622] (-) TimerEvent: {}
+[11.646270] (-) TimerEvent: {}
+[11.747095] (-) TimerEvent: {}
+[11.847789] (-) TimerEvent: {}
+[11.948482] (-) TimerEvent: {}
+[12.049591] (-) TimerEvent: {}
+[12.150453] (-) TimerEvent: {}
+[12.251156] (-) TimerEvent: {}
+[12.351704] (-) TimerEvent: {}
+[12.452478] (-) TimerEvent: {}
+[12.553209] (-) TimerEvent: {}
+[12.654032] (-) TimerEvent: {}
+[12.754809] (-) TimerEvent: {}
+[12.855616] (-) TimerEvent: {}
+[12.900004] (interface) JobEnded: {'identifier': 'interface', 'rc': 0}
+[12.915494] (nao_writing) JobStarted: {'identifier': 'nao_writing'}
+[12.955763] (-) TimerEvent: {}
+[13.056519] (-) TimerEvent: {}
+[13.157272] (-) TimerEvent: {}
+[13.258122] (-) TimerEvent: {}
+[13.358900] (-) TimerEvent: {}
+[13.459575] (-) TimerEvent: {}
+[13.560495] (-) TimerEvent: {}
+[13.661320] (-) TimerEvent: {}
+[13.762083] (-) TimerEvent: {}
+[13.862775] (-) TimerEvent: {}
+[13.964482] (-) TimerEvent: {}
+[14.066324] (-) TimerEvent: {}
+[14.167207] (-) TimerEvent: {}
+[14.267993] (-) TimerEvent: {}
+[14.368814] (-) TimerEvent: {}
+[14.469747] (-) TimerEvent: {}
+[14.570624] (-) TimerEvent: {}
+[14.671430] (-) TimerEvent: {}
+[14.772147] (-) TimerEvent: {}
+[14.872797] (-) TimerEvent: {}
+[14.973552] (-) TimerEvent: {}
+[15.074116] (-) TimerEvent: {}
+[15.174844] (-) TimerEvent: {}
+[15.275523] (-) TimerEvent: {}
+[15.376278] (-) TimerEvent: {}
+[15.476929] (-) TimerEvent: {}
+[15.577586] (-) TimerEvent: {}
+[15.678291] (-) TimerEvent: {}
+[15.778994] (-) TimerEvent: {}
+[15.879865] (-) TimerEvent: {}
+[15.980513] (-) TimerEvent: {}
+[16.081115] (-) TimerEvent: {}
+[16.180223] (nao_writing) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/nao_writing', 'build', '--build-base', '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build', 'install', '--record', '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/install.log', '--single-version-externally-managed'], 'cwd': '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/src/nao_writing', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'minyic', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/minyic', 'OLDPWD': '/mnt/c/Users/minyi/Desktop/ros2_cll', 'ROS_PYTHON_VERSION': '3', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'minyic', 'NAME': 'minyic', 'WSL_INTEROP': '/run/WSL/273_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/minyic/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files (x86)/NetSarang/Xshell 7/:/mnt/c/Program Files (x86)/NetSarang/Xftp 7/:/Docker/host/bin:/mnt/c/Python27/Lib/site-packages/py2exe:/mnt/c/Python27:/mnt/c/Users/minyi/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/minyi/AppData/Roaming/npm:/mnt/c/Python27/Lib:/snap/bin', 'XDG_RUNTIME_DIR': '/mnt/wslg/runtime-dir', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing:/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/prefix_override:/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages:/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages:/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface', 'WSLENV': ''}, 'shell': False}
+[16.201675] (-) TimerEvent: {}
+[16.302338] (-) TimerEvent: {}
+[16.403168] (-) TimerEvent: {}
+[16.503955] (-) TimerEvent: {}
+[16.604772] (-) TimerEvent: {}
+[16.705748] (-) TimerEvent: {}
+[16.806477] (-) TimerEvent: {}
+[16.907074] (-) TimerEvent: {}
+[17.007832] (-) TimerEvent: {}
+[17.108600] (-) TimerEvent: {}
+[17.209365] (-) TimerEvent: {}
+[17.235501] (nao_writing) StdoutLine: {'line': b'running egg_info\n'}
+[17.272471] (nao_writing) StdoutLine: {'line': b'writing ../../build/nao_writing/nao_writing.egg-info/PKG-INFO\n'}
+[17.285285] (nao_writing) StdoutLine: {'line': b'writing dependency_links to ../../build/nao_writing/nao_writing.egg-info/dependency_links.txt\n'}
+[17.296114] (nao_writing) StdoutLine: {'line': b'writing entry points to ../../build/nao_writing/nao_writing.egg-info/entry_points.txt\n'}
+[17.303516] (nao_writing) StdoutLine: {'line': b'writing requirements to ../../build/nao_writing/nao_writing.egg-info/requires.txt\n'}
+[17.308973] (nao_writing) StdoutLine: {'line': b'writing top-level names to ../../build/nao_writing/nao_writing.egg-info/top_level.txt\n'}
+[17.310411] (-) TimerEvent: {}
+[17.411029] (-) TimerEvent: {}
+[17.420013] (nao_writing) StdoutLine: {'line': b"reading manifest file '../../build/nao_writing/nao_writing.egg-info/SOURCES.txt'\n"}
+[17.511130] (-) TimerEvent: {}
+[17.550443] (nao_writing) StdoutLine: {'line': b"writing manifest file '../../build/nao_writing/nao_writing.egg-info/SOURCES.txt'\n"}
+[17.557879] (nao_writing) StdoutLine: {'line': b'running build\n'}
+[17.562102] (nao_writing) StdoutLine: {'line': b'running build_py\n'}
+[17.592810] (nao_writing) StdoutLine: {'line': b'copying nao_writing/input_interpreter.py -> /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build/lib/nao_writing\n'}
+[17.611269] (-) TimerEvent: {}
+[17.712193] (-) TimerEvent: {}
+[17.740304] (nao_writing) StdoutLine: {'line': b'running install\n'}
+[17.742000] (nao_writing) StderrLine: {'line': b'/usr/local/lib/python3.10/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[17.743665] (nao_writing) StderrLine: {'line': b'  warnings.warn(\n'}
+[17.753735] (nao_writing) StdoutLine: {'line': b'running install_lib\n'}
+[17.812369] (-) TimerEvent: {}
+[17.859743] (nao_writing) StdoutLine: {'line': b'copying /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build/lib/nao_writing/input_interpreter.py -> /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing\n'}
+[17.912476] (-) TimerEvent: {}
+[18.013230] (-) TimerEvent: {}
+[18.105986] (nao_writing) StdoutLine: {'line': b'byte-compiling /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing/input_interpreter.py to input_interpreter.cpython-310.pyc\n'}
+[18.113325] (-) TimerEvent: {}
+[18.214200] (-) TimerEvent: {}
+[18.296885] (nao_writing) StdoutLine: {'line': b'running install_data\n'}
+[18.314331] (-) TimerEvent: {}
+[18.356929] (nao_writing) StdoutLine: {'line': b'running install_egg_info\n'}
+[18.396796] (nao_writing) StdoutLine: {'line': b"removing '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[18.414470] (-) TimerEvent: {}
+[18.492870] (nao_writing) StdoutLine: {'line': b'Copying ../../build/nao_writing/nao_writing.egg-info to /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing-0.0.0-py3.10.egg-info\n'}
+[18.514575] (-) TimerEvent: {}
+[18.615336] (-) TimerEvent: {}
+[18.716066] (-) TimerEvent: {}
+[18.816885] (-) TimerEvent: {}
+[18.917614] (-) TimerEvent: {}
+[18.921752] (nao_writing) StdoutLine: {'line': b'running install_scripts\n'}
+[19.017719] (-) TimerEvent: {}
+[19.118296] (-) TimerEvent: {}
+[19.219071] (-) TimerEvent: {}
+[19.319876] (-) TimerEvent: {}
+[19.363793] (nao_writing) StdoutLine: {'line': b'Installing input_interpreter script to /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/nao_writing\n'}
+[19.381145] (nao_writing) StdoutLine: {'line': b'Installing learning_word script to /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/nao_writing\n'}
+[19.400549] (nao_writing) StdoutLine: {'line': b"writing list of installed files to '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/install.log'\n"}
+[19.420021] (-) TimerEvent: {}
+[19.428658] (nao_writing) CommandEnded: {'returncode': 0}
+[19.520111] (-) TimerEvent: {}
+[19.620694] (-) TimerEvent: {}
+[19.721401] (-) TimerEvent: {}
+[19.805474] (nao_writing) JobEnded: {'identifier': 'nao_writing', 'rc': 0}
+[19.822617] (-) TimerEvent: {}
+[19.823024] (-) EventReactorShutdown: {}

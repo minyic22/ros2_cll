@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/nao_writing/nao_writing.egg-info/PKG-INFO
+writing dependency_links to ../../build/nao_writing/nao_writing.egg-info/dependency_links.txt
+writing entry points to ../../build/nao_writing/nao_writing.egg-info/entry_points.txt
+writing requirements to ../../build/nao_writing/nao_writing.egg-info/requires.txt
+writing top-level names to ../../build/nao_writing/nao_writing.egg-info/top_level.txt
+reading manifest file '../../build/nao_writing/nao_writing.egg-info/SOURCES.txt'
+writing manifest file '../../build/nao_writing/nao_writing.egg-info/SOURCES.txt'
+running build
+running build_py
+copying nao_writing/input_interpreter.py -> /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build/lib/nao_writing
+running install
+/usr/local/lib/python3.10/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+copying /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build/lib/nao_writing/input_interpreter.py -> /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing
+byte-compiling /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing/input_interpreter.py to input_interpreter.cpython-310.pyc
+Sorry: IndentationError: expected an indented block after 'if' statement on line 42 (input_interpreter.py, line 46)
+running install_data
+running install_egg_info
+removing '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/nao_writing/nao_writing.egg-info to /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing-0.0.0-py3.10.egg-info
+running install_scripts
+Installing input_interpreter script to /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/nao_writing
+Installing learning_word script to /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/nao_writing
+writing list of installed files to '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/install.log'

@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from interface/msg/Strokes.msg
+// generated code does not contain a copyright notice
+
+#include "interface/msg/Stroke.idl"
+
+module interface {
+  module msg {
+    struct Strokes {
+      @verbatim (language="comment", text=
+        "an array of strokes")
+      sequence<interface::msg::Stroke> strokes;
+
+      @verbatim (language="comment", text=
+        "the ID of the instance of the shape")
+      uint32 shape_id;
+
+      @verbatim (language="comment", text=
+        "the type of the shape")
+      string shape_type;
+
+      @verbatim (language="comment", text=
+        "the code of the type of the shape")
+      uint32 shapetype_code;
+
+      @verbatim (language="comment", text=
+        "which parameters are varying in the shape model")
+      sequence<uint8> params_to_vary;
+
+      @verbatim (language="comment", text=
+        "the parameter values used to make this shape")
+      sequence<float> param_values;
+    };
+  };
+};

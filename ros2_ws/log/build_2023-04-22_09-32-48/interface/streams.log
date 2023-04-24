@@ -1,0 +1,33 @@
+[0.064s] Invoking command in '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/interface': /usr/bin/cmake /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/src/interface -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface
+[0.566s] -- The C compiler identification is GNU 11.3.0
+[1.548s] -- The CXX compiler identification is GNU 11.3.0
+[2.226s] -- Detecting C compiler ABI info
+[3.285s] -- Detecting C compiler ABI info - done
+[3.324s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.325s] -- Detecting C compile features
+[3.327s] -- Detecting C compile features - done
+[3.426s] -- Detecting CXX compiler ABI info
+[4.415s] -- Detecting CXX compiler ABI info - done
+[4.455s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.459s] -- Detecting CXX compile features
+[4.461s] -- Detecting CXX compile features - done
+[6.694s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[6.698s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[6.700s]   has asked CMake to find a package configuration file provided by
+[6.701s]   "ament_cmake", but CMake did not find one.
+[6.703s] 
+[6.704s]   Could not find a package configuration file provided by "ament_cmake" with
+[6.706s]   any of the following names:
+[6.708s] 
+[6.709s]     ament_cmakeConfig.cmake
+[6.711s]     ament_cmake-config.cmake
+[6.713s] 
+[6.716s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[6.718s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[6.719s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[6.721s]   has been installed.
+[6.723s] 
+[6.724s] [0m
+[6.726s] -- Configuring incomplete, errors occurred!
+[6.727s] See also "/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/interface/CMakeFiles/CMakeOutput.log".
+[6.729s] Invoked command in '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/interface' returned '1': /usr/bin/cmake /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/src/interface -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface

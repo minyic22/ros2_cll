@@ -1,0 +1,6 @@
+msg/Shape.idl
+msg/Shape.msg
+msg/Stroke.idl
+msg/Stroke.msg
+msg/Strokes.idl
+msg/Strokes.msg

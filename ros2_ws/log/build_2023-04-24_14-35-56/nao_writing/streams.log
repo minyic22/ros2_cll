@@ -1,0 +1,28 @@
+[4.530s] Invoking command in '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/src/nao_writing': AMENT_PREFIX_PATH=/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface LD_LIBRARY_PATH=/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/prefix_override:/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages:/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nao_writing build --build-base /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build install --record /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/install.log --single-version-externally-managed
+[6.361s] running egg_info
+[6.415s] writing ../../build/nao_writing/nao_writing.egg-info/PKG-INFO
+[6.429s] writing dependency_links to ../../build/nao_writing/nao_writing.egg-info/dependency_links.txt
+[6.445s] writing entry points to ../../build/nao_writing/nao_writing.egg-info/entry_points.txt
+[6.454s] writing requirements to ../../build/nao_writing/nao_writing.egg-info/requires.txt
+[6.460s] writing top-level names to ../../build/nao_writing/nao_writing.egg-info/top_level.txt
+[6.601s] reading manifest file '../../build/nao_writing/nao_writing.egg-info/SOURCES.txt'
+[6.739s] writing manifest file '../../build/nao_writing/nao_writing.egg-info/SOURCES.txt'
+[6.747s] running build
+[6.749s] running build_py
+[6.773s] copying nao_writing/input_interpreter.py -> /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build/lib/nao_writing
+[6.886s] running install
+[6.887s] /usr/local/lib/python3.10/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.889s]   warnings.warn(
+[6.907s] running install_lib
+[7.023s] copying /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build/lib/nao_writing/input_interpreter.py -> /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing
+[7.290s] byte-compiling /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing/input_interpreter.py to input_interpreter.cpython-310.pyc
+[7.326s] Sorry: IndentationError: expected an indented block after 'if' statement on line 42 (input_interpreter.py, line 46)
+[7.449s] running install_data
+[7.536s] running install_egg_info
+[7.603s] removing '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing-0.0.0-py3.10.egg-info' (and everything under it)
+[7.709s] Copying ../../build/nao_writing/nao_writing.egg-info to /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing-0.0.0-py3.10.egg-info
+[8.149s] running install_scripts
+[8.810s] Installing input_interpreter script to /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/nao_writing
+[8.831s] Installing learning_word script to /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/nao_writing
+[8.858s] writing list of installed files to '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/install.log'
+[8.889s] Invoked command in '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/src/nao_writing' returned '0': AMENT_PREFIX_PATH=/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface LD_LIBRARY_PATH=/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/prefix_override:/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages:/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nao_writing build --build-base /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build install --record /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/install.log --single-version-externally-managed

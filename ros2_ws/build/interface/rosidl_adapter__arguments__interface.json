@@ -1,0 +1,8 @@
+{
+  "package_name": "interface",
+  "non_idl_tuples": [
+    "/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/src/interface:msg/Shape.msg",
+    "/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/src/interface:msg/Stroke.msg",
+    "/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/src/interface:msg/Strokes.msg"
+  ]
+}

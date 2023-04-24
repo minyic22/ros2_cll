@@ -1,0 +1,27 @@
+[5.011s] Invoking command in '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/src/nao_writing': PYTHONPATH=/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/prefix_override:/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nao_writing build --build-base /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build install --record /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/install.log --single-version-externally-managed
+[6.492s] running egg_info
+[6.519s] writing ../../build/nao_writing/nao_writing.egg-info/PKG-INFO
+[6.532s] writing dependency_links to ../../build/nao_writing/nao_writing.egg-info/dependency_links.txt
+[6.542s] writing entry points to ../../build/nao_writing/nao_writing.egg-info/entry_points.txt
+[6.551s] writing requirements to ../../build/nao_writing/nao_writing.egg-info/requires.txt
+[6.556s] writing top-level names to ../../build/nao_writing/nao_writing.egg-info/top_level.txt
+[6.676s] reading manifest file '../../build/nao_writing/nao_writing.egg-info/SOURCES.txt'
+[6.779s] writing manifest file '../../build/nao_writing/nao_writing.egg-info/SOURCES.txt'
+[6.787s] running build
+[6.788s] running build_py
+[6.812s] copying nao_writing/input_interpreter.py -> /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build/lib/nao_writing
+[6.913s] running install
+[6.915s] /usr/local/lib/python3.10/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.917s]   warnings.warn(
+[6.934s] running install_lib
+[7.040s] copying /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build/lib/nao_writing/input_interpreter.py -> /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing
+[7.307s] byte-compiling /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing/input_interpreter.py to input_interpreter.cpython-310.pyc
+[7.514s] running install_data
+[7.589s] running install_egg_info
+[7.648s] removing '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing-0.0.0-py3.10.egg-info' (and everything under it)
+[7.738s] Copying ../../build/nao_writing/nao_writing.egg-info to /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing-0.0.0-py3.10.egg-info
+[8.183s] running install_scripts
+[8.813s] Installing input_interpreter script to /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/nao_writing
+[8.834s] Installing learning_word script to /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/nao_writing
+[8.859s] writing list of installed files to '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/install.log'
+[8.888s] Invoked command in '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/src/nao_writing' returned '0': PYTHONPATH=/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/prefix_override:/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nao_writing build --build-base /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build install --record /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/install.log --single-version-externally-managed

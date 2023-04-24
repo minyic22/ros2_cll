@@ -1,0 +1,141 @@
+[0.000000] (-) TimerEvent: {}
+[0.000467] (-) JobUnselected: {'identifier': 'interface'}
+[0.000871] (nao_writing) JobQueued: {'identifier': 'nao_writing', 'dependencies': OrderedDict([('interface', '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface')])}
+[0.001319] (nao_writing) JobStarted: {'identifier': 'nao_writing'}
+[0.097732] (-) TimerEvent: {}
+[0.198463] (-) TimerEvent: {}
+[0.299196] (-) TimerEvent: {}
+[0.400029] (-) TimerEvent: {}
+[0.500805] (-) TimerEvent: {}
+[0.601856] (-) TimerEvent: {}
+[0.702700] (-) TimerEvent: {}
+[0.804017] (-) TimerEvent: {}
+[0.904977] (-) TimerEvent: {}
+[1.006013] (-) TimerEvent: {}
+[1.106786] (-) TimerEvent: {}
+[1.207484] (-) TimerEvent: {}
+[1.308250] (-) TimerEvent: {}
+[1.409014] (-) TimerEvent: {}
+[1.509890] (-) TimerEvent: {}
+[1.610677] (-) TimerEvent: {}
+[1.711375] (-) TimerEvent: {}
+[1.812032] (-) TimerEvent: {}
+[1.912873] (-) TimerEvent: {}
+[2.013650] (-) TimerEvent: {}
+[2.114452] (-) TimerEvent: {}
+[2.215177] (-) TimerEvent: {}
+[2.316044] (-) TimerEvent: {}
+[2.418328] (-) TimerEvent: {}
+[2.519247] (-) TimerEvent: {}
+[2.620133] (-) TimerEvent: {}
+[2.720836] (-) TimerEvent: {}
+[2.821680] (-) TimerEvent: {}
+[2.922616] (-) TimerEvent: {}
+[3.023258] (-) TimerEvent: {}
+[3.123985] (-) TimerEvent: {}
+[3.224858] (-) TimerEvent: {}
+[3.325877] (-) TimerEvent: {}
+[3.426650] (-) TimerEvent: {}
+[3.527450] (-) TimerEvent: {}
+[3.628190] (-) TimerEvent: {}
+[3.728888] (-) TimerEvent: {}
+[3.829617] (-) TimerEvent: {}
+[3.930341] (-) TimerEvent: {}
+[4.030987] (-) TimerEvent: {}
+[4.131778] (-) TimerEvent: {}
+[4.232489] (-) TimerEvent: {}
+[4.333128] (-) TimerEvent: {}
+[4.433804] (-) TimerEvent: {}
+[4.534567] (-) TimerEvent: {}
+[4.635115] (-) TimerEvent: {}
+[4.735752] (-) TimerEvent: {}
+[4.836480] (-) TimerEvent: {}
+[4.937242] (-) TimerEvent: {}
+[5.038133] (-) TimerEvent: {}
+[5.138910] (-) TimerEvent: {}
+[5.240029] (-) TimerEvent: {}
+[5.250663] (nao_writing) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/nao_writing', 'build', '--build-base', '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build', 'install', '--record', '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/install.log', '--single-version-externally-managed'], 'cwd': '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/src/nao_writing', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'minyic', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/minyic', 'OLDPWD': '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'minyic', 'NAME': 'minyic', 'WSL_INTEROP': '/run/WSL/1091_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/minyic/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files (x86)/NetSarang/Xshell 7/:/mnt/c/Program Files (x86)/NetSarang/Xftp 7/:/Docker/host/bin:/mnt/c/Python27/Lib/site-packages/py2exe:/mnt/c/Python27:/mnt/c/Users/minyi/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/minyi/AppData/Roaming/npm:/mnt/c/Python27/Lib:/snap/bin', 'XDG_RUNTIME_DIR': '/mnt/wslg/runtime-dir', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing:/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/prefix_override:/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages:/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages:/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/interface', 'WSLENV': ''}, 'shell': False}
+[5.340360] (-) TimerEvent: {}
+[5.441718] (-) TimerEvent: {}
+[5.542531] (-) TimerEvent: {}
+[5.643476] (-) TimerEvent: {}
+[5.744426] (-) TimerEvent: {}
+[5.845303] (-) TimerEvent: {}
+[5.946034] (-) TimerEvent: {}
+[6.046613] (-) TimerEvent: {}
+[6.147184] (-) TimerEvent: {}
+[6.247873] (-) TimerEvent: {}
+[6.348588] (-) TimerEvent: {}
+[6.449313] (-) TimerEvent: {}
+[6.550053] (-) TimerEvent: {}
+[6.650778] (-) TimerEvent: {}
+[6.751537] (-) TimerEvent: {}
+[6.852241] (-) TimerEvent: {}
+[6.952788] (-) TimerEvent: {}
+[7.053824] (-) TimerEvent: {}
+[7.147834] (nao_writing) StdoutLine: {'line': b'running egg_info\n'}
+[7.153953] (-) TimerEvent: {}
+[7.193353] (nao_writing) StdoutLine: {'line': b'writing ../../build/nao_writing/nao_writing.egg-info/PKG-INFO\n'}
+[7.211846] (nao_writing) StdoutLine: {'line': b'writing dependency_links to ../../build/nao_writing/nao_writing.egg-info/dependency_links.txt\n'}
+[7.224077] (nao_writing) StdoutLine: {'line': b'writing entry points to ../../build/nao_writing/nao_writing.egg-info/entry_points.txt\n'}
+[7.235575] (nao_writing) StdoutLine: {'line': b'writing requirements to ../../build/nao_writing/nao_writing.egg-info/requires.txt\n'}
+[7.242419] (nao_writing) StdoutLine: {'line': b'writing top-level names to ../../build/nao_writing/nao_writing.egg-info/top_level.txt\n'}
+[7.254086] (-) TimerEvent: {}
+[7.354756] (-) TimerEvent: {}
+[7.387361] (nao_writing) StdoutLine: {'line': b"reading manifest file '../../build/nao_writing/nao_writing.egg-info/SOURCES.txt'\n"}
+[7.454913] (-) TimerEvent: {}
+[7.530644] (nao_writing) StdoutLine: {'line': b"writing manifest file '../../build/nao_writing/nao_writing.egg-info/SOURCES.txt'\n"}
+[7.536738] (nao_writing) StdoutLine: {'line': b'running build\n'}
+[7.539044] (nao_writing) StdoutLine: {'line': b'running build_py\n'}
+[7.555053] (-) TimerEvent: {}
+[7.568149] (nao_writing) StdoutLine: {'line': b'copying nao_writing/input_interpreter.py -> /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build/lib/nao_writing\n'}
+[7.623481] (nao_writing) StdoutLine: {'line': b'copying nao_writing/learning_word.py -> /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build/lib/nao_writing\n'}
+[7.655172] (-) TimerEvent: {}
+[7.706631] (nao_writing) StdoutLine: {'line': b'running install\n'}
+[7.708470] (nao_writing) StderrLine: {'line': b'/usr/local/lib/python3.10/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[7.710068] (nao_writing) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.722386] (nao_writing) StdoutLine: {'line': b'running install_lib\n'}
+[7.755334] (-) TimerEvent: {}
+[7.839447] (nao_writing) StdoutLine: {'line': b'copying /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build/lib/nao_writing/input_interpreter.py -> /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing\n'}
+[7.855503] (-) TimerEvent: {}
+[7.923653] (nao_writing) StdoutLine: {'line': b'copying /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build/lib/nao_writing/learning_word.py -> /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing\n'}
+[7.955646] (-) TimerEvent: {}
+[8.056439] (-) TimerEvent: {}
+[8.157306] (-) TimerEvent: {}
+[8.164986] (nao_writing) StdoutLine: {'line': b'byte-compiling /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing/input_interpreter.py to input_interpreter.cpython-310.pyc\n'}
+[8.257503] (-) TimerEvent: {}
+[8.275297] (nao_writing) StdoutLine: {'line': b'byte-compiling /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing/learning_word.py to learning_word.cpython-310.pyc\n'}
+[8.357643] (-) TimerEvent: {}
+[8.454149] (nao_writing) StdoutLine: {'line': b'running install_data\n'}
+[8.457735] (-) TimerEvent: {}
+[8.541424] (nao_writing) StdoutLine: {'line': b'copying package.xml -> /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/share/nao_writing\n'}
+[8.557863] (-) TimerEvent: {}
+[8.571479] (nao_writing) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.630288] (nao_writing) StdoutLine: {'line': b"removing '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[8.658097] (-) TimerEvent: {}
+[8.746057] (nao_writing) StdoutLine: {'line': b'Copying ../../build/nao_writing/nao_writing.egg-info to /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing-0.0.0-py3.10.egg-info\n'}
+[8.758249] (-) TimerEvent: {}
+[8.859073] (-) TimerEvent: {}
+[8.959914] (-) TimerEvent: {}
+[9.060983] (-) TimerEvent: {}
+[9.161840] (-) TimerEvent: {}
+[9.214429] (nao_writing) StdoutLine: {'line': b'running install_scripts\n'}
+[9.261959] (-) TimerEvent: {}
+[9.362709] (-) TimerEvent: {}
+[9.463427] (-) TimerEvent: {}
+[9.564170] (-) TimerEvent: {}
+[9.666996] (-) TimerEvent: {}
+[9.767606] (-) TimerEvent: {}
+[9.868280] (-) TimerEvent: {}
+[9.876683] (nao_writing) StdoutLine: {'line': b'Installing input_interpreter script to /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/nao_writing\n'}
+[9.901945] (nao_writing) StdoutLine: {'line': b'Installing learning_word script to /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/nao_writing\n'}
+[9.929816] (nao_writing) StdoutLine: {'line': b"writing list of installed files to '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/install.log'\n"}
+[9.959143] (nao_writing) CommandEnded: {'returncode': 0}
+[9.968422] (-) TimerEvent: {}
+[10.069361] (-) TimerEvent: {}
+[10.169889] (-) TimerEvent: {}
+[10.270737] (-) TimerEvent: {}
+[10.371366] (-) TimerEvent: {}
+[10.472131] (-) TimerEvent: {}
+[10.480083] (nao_writing) JobEnded: {'identifier': 'nao_writing', 'rc': 0}
+[10.496126] (-) EventReactorShutdown: {}

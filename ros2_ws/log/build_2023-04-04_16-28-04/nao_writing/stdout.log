@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/nao_writing/nao_writing.egg-info
+writing ../../build/nao_writing/nao_writing.egg-info/PKG-INFO
+writing dependency_links to ../../build/nao_writing/nao_writing.egg-info/dependency_links.txt
+writing entry points to ../../build/nao_writing/nao_writing.egg-info/entry_points.txt
+writing requirements to ../../build/nao_writing/nao_writing.egg-info/requires.txt
+writing top-level names to ../../build/nao_writing/nao_writing.egg-info/top_level.txt
+writing manifest file '../../build/nao_writing/nao_writing.egg-info/SOURCES.txt'
+reading manifest file '../../build/nao_writing/nao_writing.egg-info/SOURCES.txt'
+writing manifest file '../../build/nao_writing/nao_writing.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build
+creating /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build/lib
+creating /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build/lib/nao_writing
+copying nao_writing/publisher_member_function.py -> /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build/lib/nao_writing
+copying nao_writing/subscriber_member_function.py -> /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build/lib/nao_writing
+copying nao_writing/__init__.py -> /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build/lib/nao_writing
+running install
+running install_lib
+creating /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing
+copying /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build/lib/nao_writing/publisher_member_function.py -> /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing
+copying /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build/lib/nao_writing/subscriber_member_function.py -> /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing
+copying /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build/lib/nao_writing/__init__.py -> /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing
+byte-compiling /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+byte-compiling /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+byte-compiling /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/share/ament_index
+creating /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/share/ament_index/resource_index
+creating /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/share/ament_index/resource_index/packages
+copying resource/nao_writing -> /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/share/ament_index/resource_index/packages
+copying package.xml -> /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/share/nao_writing
+running install_egg_info
+Copying ../../build/nao_writing/nao_writing.egg-info to /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing-0.0.0-py3.10.egg-info
+running install_scripts
+Installing listener script to /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/nao_writing
+Installing talker script to /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/nao_writing
+writing list of installed files to '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/install.log'

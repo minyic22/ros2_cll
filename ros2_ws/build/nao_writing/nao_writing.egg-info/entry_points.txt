@@ -1,0 +1,3 @@
+[console_scripts]
+input_interpreter = nao_writing.input_interpreter:main
+learning_word = nao_writing.learning_word:main

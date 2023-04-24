@@ -1,0 +1,30 @@
+[1.756s] Invoking command in '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/src/nao_writing': PYTHONPATH=/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/prefix_override:/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/nao_writing build --build-base /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build install --record /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/install.log --single-version-externally-managed
+[2.587s] running egg_info
+[2.610s] writing ../../build/nao_writing/nao_writing.egg-info/PKG-INFO
+[2.620s] writing dependency_links to ../../build/nao_writing/nao_writing.egg-info/dependency_links.txt
+[2.629s] writing entry points to ../../build/nao_writing/nao_writing.egg-info/entry_points.txt
+[2.635s] writing requirements to ../../build/nao_writing/nao_writing.egg-info/requires.txt
+[2.640s] writing top-level names to ../../build/nao_writing/nao_writing.egg-info/top_level.txt
+[2.721s] reading manifest file '../../build/nao_writing/nao_writing.egg-info/SOURCES.txt'
+[2.825s] writing manifest file '../../build/nao_writing/nao_writing.egg-info/SOURCES.txt'
+[2.830s] running build
+[2.831s] running build_py
+[2.845s] copying nao_writing/nao_writer_naoqi.py -> /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build/lib/nao_writing
+[2.887s] copying nao_writing/publisher_member_function.py -> /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build/lib/nao_writing
+[2.951s] running install
+[2.952s] /usr/local/lib/python3.10/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.953s]   warnings.warn(
+[2.962s] running install_lib
+[3.026s] copying /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build/lib/nao_writing/nao_writer_naoqi.py -> /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing
+[3.081s] copying /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build/lib/nao_writing/publisher_member_function.py -> /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing
+[3.186s] byte-compiling /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing/nao_writer_naoqi.py to nao_writer_naoqi.cpython-310.pyc
+[3.248s] byte-compiling /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[3.344s] running install_data
+[3.400s] running install_egg_info
+[3.432s] removing '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing-0.0.0-py3.10.egg-info' (and everything under it)
+[3.518s] Copying ../../build/nao_writing/nao_writing.egg-info to /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing-0.0.0-py3.10.egg-info
+[3.890s] running install_scripts
+[4.181s] Installing listener script to /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/nao_writing
+[4.196s] Installing talker script to /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/nao_writing
+[4.214s] writing list of installed files to '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/install.log'
+[4.240s] Invoked command in '/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/src/nao_writing' returned '0': PYTHONPATH=/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/prefix_override:/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/nao_writing build --build-base /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/build install --record /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/build/nao_writing/install.log --single-version-externally-managed
