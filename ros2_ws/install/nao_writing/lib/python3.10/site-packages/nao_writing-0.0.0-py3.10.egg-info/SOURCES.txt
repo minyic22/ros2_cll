@@ -12,6 +12,9 @@ nao_writing/__init__.py
 nao_writing/input_interpreter.py
 nao_writing/learning_word.py
 nao_writing/nao_writer_naoqi.py
+nao_writing/shape_learner.py
+nao_writing/shape_learner_manager.py
+nao_writing/shape_modeler.py
 resource/nao_writing
 test/test_copyright.py
 test/test_flake8.py

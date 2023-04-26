@@ -1,10 +1,16 @@
 /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing/input_interpreter.py
 /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing/learning_word.py
 /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing/nao_writer_naoqi.py
+/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing/shape_learner.py
+/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing/shape_learner_manager.py
+/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing/shape_modeler.py
 /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing/__init__.py
 /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing/__pycache__/input_interpreter.cpython-310.pyc
 /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing/__pycache__/learning_word.cpython-310.pyc
 /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing/__pycache__/nao_writer_naoqi.cpython-310.pyc
+/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing/__pycache__/shape_learner.cpython-310.pyc
+/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing/__pycache__/shape_learner_manager.cpython-310.pyc
+/mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing/__pycache__/shape_modeler.cpython-310.pyc
 /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/lib/python3.10/site-packages/nao_writing/__pycache__/__init__.cpython-310.pyc
 /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/share/ament_index/resource_index/packages/nao_writing
 /mnt/c/Users/minyi/Desktop/ros2_cll/ros2_ws/install/nao_writing/share/nao_writing/package.xml
